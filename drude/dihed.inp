@@ -1,0 +1,533 @@
+# apply dihedral restraints to the selectivity filter
+
+colvarsTrajFrequency  0
+
+colvar {
+  name THR_59_PHI_PROA
+  dihedral {
+    group1 { atomNumbers 1092 }
+    group2 { atomNumbers 1103 }
+    group3 { atomNumbers 1106 }
+    group4 { atomNumbers 1109 }
+  }
+}
+
+colvar {
+  name VAL_60_PHI_PROA
+  dihedral {
+    group1 { atomNumbers 1109 }
+    group2 { atomNumbers 1128 }
+    group3 { atomNumbers 1131 }
+    group4 { atomNumbers 1134 }
+  }
+}
+
+colvar {
+  name GLY_61_PHI_PROA
+  dihedral {
+    group1 { atomNumbers 1134 }
+    group2 { atomNumbers 1153 }
+    group3 { atomNumbers 1156 }
+    group4 { atomNumbers 1160 }
+  }
+}
+
+colvar {
+  name TYR_62_PHI_PROA
+  dihedral {
+    group1 { atomNumbers 1160 }
+    group2 { atomNumbers 1166 }
+    group3 { atomNumbers 1169 }
+    group4 { atomNumbers 1172 }
+  }
+}
+
+colvar {
+  name GLY_63_PHI_PROA
+  dihedral {
+    group1 { atomNumbers 1172 }
+    group2 { atomNumbers 1204 }
+    group3 { atomNumbers 1207 }
+    group4 { atomNumbers 1211 }
+  }
+}
+
+colvar {
+  name THR_59_PHI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3270 }
+    group2 { atomNumbers 3281 }
+    group3 { atomNumbers 3284 }
+    group4 { atomNumbers 3287 }
+  }
+}
+
+colvar {
+  name VAL_60_PHI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3287 }
+    group2 { atomNumbers 3306 }
+    group3 { atomNumbers 3309 }
+    group4 { atomNumbers 3312 }
+  }
+}
+
+colvar {
+  name GLY_61_PHI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3312 }
+    group2 { atomNumbers 3331 }
+    group3 { atomNumbers 3334 }
+    group4 { atomNumbers 3338 }
+  }
+}
+
+colvar {
+  name TYR_62_PHI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3338 }
+    group2 { atomNumbers 3344 }
+    group3 { atomNumbers 3347 }
+    group4 { atomNumbers 3350 }
+  }
+}
+
+colvar {
+  name GLY_63_PHI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3350 }
+    group2 { atomNumbers 3382 }
+    group3 { atomNumbers 3385 }
+    group4 { atomNumbers 3389 }
+  }
+}
+
+colvar {
+  name THR_59_PHI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5448 }
+    group2 { atomNumbers 5459 }
+    group3 { atomNumbers 5462 }
+    group4 { atomNumbers 5465 }
+  }
+}
+
+colvar {
+  name VAL_60_PHI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5465 }
+    group2 { atomNumbers 5484 }
+    group3 { atomNumbers 5487 }
+    group4 { atomNumbers 5490 }
+  }
+}
+
+colvar {
+  name GLY_61_PHI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5490 }
+    group2 { atomNumbers 5509 }
+    group3 { atomNumbers 5512 }
+    group4 { atomNumbers 5516 }
+  }
+}
+
+colvar {
+  name TYR_62_PHI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5516 }
+    group2 { atomNumbers 5522 }
+    group3 { atomNumbers 5525 }
+    group4 { atomNumbers 5528 }
+  }
+}
+
+colvar {
+  name GLY_63_PHI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5528 }
+    group2 { atomNumbers 5560 }
+    group3 { atomNumbers 5563 }
+    group4 { atomNumbers 5567 }
+  }
+}
+
+colvar {
+  name THR_59_PHI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7626 }
+    group2 { atomNumbers 7637 }
+    group3 { atomNumbers 7640 }
+    group4 { atomNumbers 7643 }
+  }
+}
+
+colvar {
+  name VAL_60_PHI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7643 }
+    group2 { atomNumbers 7662 }
+    group3 { atomNumbers 7665 }
+    group4 { atomNumbers 7668 }
+  }
+}
+
+colvar {
+  name GLY_61_PHI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7668 }
+    group2 { atomNumbers 7687 }
+    group3 { atomNumbers 7690 }
+    group4 { atomNumbers 7694 }
+  }
+}
+
+colvar {
+  name TYR_62_PHI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7694 }
+    group2 { atomNumbers 7700 }
+    group3 { atomNumbers 7703 }
+    group4 { atomNumbers 7706 }
+  }
+}
+
+colvar {
+  name GLY_63_PHI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7706 }
+    group2 { atomNumbers 7738 }
+    group3 { atomNumbers 7741 }
+    group4 { atomNumbers 7745 }
+  }
+}
+
+colvar {
+  name THR_59_PSI_PROA
+  dihedral {
+    group1 { atomNumbers 1103 }
+    group2 { atomNumbers 1106 }
+    group3 { atomNumbers 1109 }
+    group4 { atomNumbers 1128 }
+  }
+}
+
+colvar {
+  name VAL_60_PSI_PROA
+  dihedral {
+    group1 { atomNumbers 1128 }
+    group2 { atomNumbers 1131 }
+    group3 { atomNumbers 1134 }
+    group4 { atomNumbers 1153 }
+  }
+}
+
+colvar {
+  name GLY_61_PSI_PROA
+  dihedral {
+    group1 { atomNumbers 1153 }
+    group2 { atomNumbers 1156 }
+    group3 { atomNumbers 1160 }
+    group4 { atomNumbers 1166 }
+  }
+}
+
+colvar {
+  name TYR_62_PSI_PROA
+  dihedral {
+    group1 { atomNumbers 1166 }
+    group2 { atomNumbers 1169 }
+    group3 { atomNumbers 1172 }
+    group4 { atomNumbers 1204 }
+  }
+}
+
+colvar {
+  name GLY_63_PSI_PROA
+  dihedral {
+    group1 { atomNumbers 1204 }
+    group2 { atomNumbers 1207 }
+    group3 { atomNumbers 1211 }
+    group4 { atomNumbers 1217 }
+  }
+}
+
+colvar {
+  name THR_59_PSI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3281 }
+    group2 { atomNumbers 3284 }
+    group3 { atomNumbers 3287 }
+    group4 { atomNumbers 3306 }
+  }
+}
+
+colvar {
+  name VAL_60_PSI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3306 }
+    group2 { atomNumbers 3309 }
+    group3 { atomNumbers 3312 }
+    group4 { atomNumbers 3331 }
+  }
+}
+
+colvar {
+  name GLY_61_PSI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3331 }
+    group2 { atomNumbers 3334 }
+    group3 { atomNumbers 3338 }
+    group4 { atomNumbers 3344 }
+  }
+}
+
+colvar {
+  name TYR_62_PSI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3344 }
+    group2 { atomNumbers 3347 }
+    group3 { atomNumbers 3350 }
+    group4 { atomNumbers 3382 }
+  }
+}
+
+colvar {
+  name GLY_63_PSI_P2PROA
+  dihedral {
+    group1 { atomNumbers 3382 }
+    group2 { atomNumbers 3385 }
+    group3 { atomNumbers 3389 }
+    group4 { atomNumbers 3395 }
+  }
+}
+
+colvar {
+  name THR_59_PSI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5459 }
+    group2 { atomNumbers 5462 }
+    group3 { atomNumbers 5465 }
+    group4 { atomNumbers 5484 }
+  }
+}
+
+colvar {
+  name VAL_60_PSI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5484 }
+    group2 { atomNumbers 5487 }
+    group3 { atomNumbers 5490 }
+    group4 { atomNumbers 5509 }
+  }
+}
+
+colvar {
+  name GLY_61_PSI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5509 }
+    group2 { atomNumbers 5512 }
+    group3 { atomNumbers 5516 }
+    group4 { atomNumbers 5522 }
+  }
+}
+
+colvar {
+  name TYR_62_PSI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5522 }
+    group2 { atomNumbers 5525 }
+    group3 { atomNumbers 5528 }
+    group4 { atomNumbers 5560 }
+  }
+}
+
+colvar {
+  name GLY_63_PSI_P3PROA
+  dihedral {
+    group1 { atomNumbers 5560 }
+    group2 { atomNumbers 5563 }
+    group3 { atomNumbers 5567 }
+    group4 { atomNumbers 5573 }
+  }
+}
+
+colvar {
+  name THR_59_PSI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7637 }
+    group2 { atomNumbers 7640 }
+    group3 { atomNumbers 7643 }
+    group4 { atomNumbers 7662 }
+  }
+}
+
+colvar {
+  name VAL_60_PSI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7662 }
+    group2 { atomNumbers 7665 }
+    group3 { atomNumbers 7668 }
+    group4 { atomNumbers 7687 }
+  }
+}
+
+colvar {
+  name GLY_61_PSI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7687 }
+    group2 { atomNumbers 7690 }
+    group3 { atomNumbers 7694 }
+    group4 { atomNumbers 7700 }
+  }
+}
+
+colvar {
+  name TYR_62_PSI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7700 }
+    group2 { atomNumbers 7703 }
+    group3 { atomNumbers 7706 }
+    group4 { atomNumbers 7738 }
+  }
+}
+
+colvar {
+  name GLY_63_PSI_P4PROA
+  dihedral {
+    group1 { atomNumbers 7738 }
+    group2 { atomNumbers 7741 }
+    group3 { atomNumbers 7745 }
+    group4 { atomNumbers 7751 }
+  }
+}
+
+harmonicWalls  {
+  name flat_bottom_dihedral_restraints
+  colvars THR_59_PHI_PROA VAL_60_PHI_PROA GLY_61_PHI_PROA TYR_62_PHI_PROA GLY_63_PHI_PROA THR_59_PHI_P2PROA VAL_60_PHI_P2PROA GLY_61_PHI_P2PROA TYR_62_PHI_P2PROA GLY_63_PHI_P2PROA THR_59_PHI_P3PROA VAL_60_PHI_P3PROA GLY_61_PHI_P3PROA TYR_62_PHI_P3PROA GLY_63_PHI_P3PROA THR_59_PHI_P4PROA VAL_60_PHI_P4PROA GLY_61_PHI_P4PROA TYR_62_PHI_P4PROA GLY_63_PHI_P4PROA THR_59_PSI_PROA VAL_60_PSI_PROA GLY_61_PSI_PROA TYR_62_PSI_PROA GLY_63_PSI_PROA THR_59_PSI_P2PROA VAL_60_PSI_P2PROA GLY_61_PSI_P2PROA TYR_62_PSI_P2PROA GLY_63_PSI_P2PROA THR_59_PSI_P3PROA VAL_60_PSI_P3PROA GLY_61_PSI_P3PROA TYR_62_PSI_P3PROA GLY_63_PSI_P3PROA THR_59_PSI_P4PROA VAL_60_PSI_P4PROA GLY_61_PSI_P4PROA TYR_62_PSI_P4PROA GLY_63_PSI_P4PROA
+  forceConstant 0.1590
+  lowerWalls 67 -73 38 -62 74 67 -73 38 -62 74 67 -73 38 -62 74 67 -73 38 -62 74 -1 -55 42 -46 -2 -1 -55 42 -46 -2 -1 -55 42 -46 -2 -1 -55 42 -46 -2
+  upperWalls 87 -53 58 -42 94 87 -53 58 -42 94 87 -53 58 -42 94 87 -53 58 -42 94 19 -35 62 -26 18 19 -35 62 -26 18 19 -35 62 -26 18 19 -35 62 -26 18
+}
+
+# apply distance restarints to the gate
+
+colvar {
+  name PRO_19_A_C
+  distance {
+    group1 { atomNumbers 30 }
+    group2 { atomNumbers 2208 }
+  }
+}
+
+colvar {
+  name PRO_19_B_D
+  distance {
+    group1 { atomNumbers 4386 }
+    group2 { atomNumbers 6564 }
+  }
+}
+
+colvar {
+  name PRO_19_A_B
+  distance {
+    group1 { atomNumbers 30 }
+    group2 { atomNumbers 4386 }
+  }
+}
+
+colvar {
+  name PRO_19_A_D
+  distance {
+    group1 { atomNumbers 30 }
+    group2 { atomNumbers 6564 }
+  }
+}
+
+colvar {
+  name PRO_19_B_C
+  distance {
+    group1 { atomNumbers 4386 }
+    group2 { atomNumbers 2208 }
+  }
+}
+
+colvar {
+  name PRO_19_C_D
+  distance {
+    group1 { atomNumbers 2208 }
+    group2 { atomNumbers 6564 }
+  }
+}
+
+colvar {
+  name PHE_97_A_C
+  distance {
+    group1 { atomNumbers 2086 }
+    group2 { atomNumbers 4264 }
+  }
+}
+
+colvar {
+  name PHE_97_B_D
+  distance {
+    group1 { atomNumbers 6442 }
+    group2 { atomNumbers 8620 }
+  }
+}
+
+colvar {
+  name PHE_97_A_B
+  distance {
+    group1 { atomNumbers 2086 }
+    group2 { atomNumbers 6442 }
+  }
+}
+
+colvar {
+  name PHE_97_A_D
+  distance {
+    group1 { atomNumbers 2086 }
+    group2 { atomNumbers 8620 }
+  }
+}
+
+colvar {
+  name PHE_97_B_C
+  distance {
+    group1 { atomNumbers 6442 }
+    group2 { atomNumbers 4264 }
+  }
+}
+
+colvar {
+  name PHE_97_C_D
+  distance {
+    group1 { atomNumbers 4264 }
+    group2 { atomNumbers 8620 }
+  }
+}
+
+harmonic {
+  name harmonic_distance_restraints
+  colvars PRO_19_A_C PRO_19_B_D PRO_19_A_B PRO_19_A_D PRO_19_B_C PRO_19_C_D PHE_97_A_C PHE_97_B_D PHE_97_A_B PHE_97_A_D PHE_97_B_C PHE_97_C_D
+  forceConstant 2.39
+  centers 36 36 25.5 25.5 25.5 25.5 36.6 36.6 26 26 26 26
+}
+
+# positional restraints on protein
+
+colvar {
+  name ILE84_CA
+  distance {
+    group1 { atomNumbers 1746 3924 6102 8280 }
+    group2 { dummyAtom (51.922000885009766, 52.17675018310547, 39.01449966430664) }
+  }
+}
+
+harmonic {
+  name postional_restraints
+  colvars ILE84_CA
+  forceConstant 2.39
+  centers 0.0
+}

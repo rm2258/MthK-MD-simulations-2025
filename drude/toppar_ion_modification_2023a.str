@@ -1,0 +1,51 @@
+* DRUDE ion parameter stream file 
+*
+
+! Ion-biomolecule NBFIX and NTHOLE parameters based on extensive QM
+! and condensed phase fitting and validation. Project ongoing as of 2023_7
+! Yiling Nan and Alex MacKerell (personal communication)
+
+read para card append
+* Ion modification 
+*
+
+NBFIX
+! NBFIXs will overwrite previously provided paramters. 
+!
+
+! Ions
+POTD    ND2A2  -0.16848  3.76615 ! nma, yiling, 2023 
+POTD    ND2R5A -0.11112  3.71997 ! imid, yiling, 2023
+POTD    ND2R5B -0.09896  3.69695 ! imid, yiling, 2023
+POTD    OD2C1A -0.16848  3.44038 ! nma, yiling, 2023
+POTD    OD2C2A -0.20634  3.56672 ! acet, yiling, 2023
+POTD    OD31A  -0.14591  3.48921 ! meoh, yiling, 2023
+
+CLAD    CD2N1A -0.18490  4.30260 ! mguan, yiling, 2023
+CLAD    ND2P1A -0.08269  4.14635 ! mguan, yiling, 2023
+CLAD    ND2R5A -0.07913  4.29363 ! imid, yiling, 2023
+
+ND2R5B  ND2R5C -0.08512  3.24242 ! imim - imid yiling, 2023
+
+THOLE TCUT 5.0 MAXNBTHOLE 5000
+
+! CHARMM Bug: NBTHOLEs will sum NBTHOLE paramters provided for same atom pairs
+! For example, NBTHOLE value for following is 2.00000, not 1.50000 
+! Atom1 Atom2  0.50000 ! example
+! Atom1 Atom2  1.50000 ! example
+! 
+
+POTD ND2A2    3.30576 ! nma, yiling, 2023
+POTD ND2R5A   1.73157 ! imid, yiling, 2023
+POTD ND2R5B   0.27945 ! imid, yiling, 2023
+POTD OD2C1A   2.23726 ! nma, yiling, 2023
+POTD OD2C2A   4.00621 ! acet, yiling, 2023
+POTD OD31A    4.43344 ! meoh, yiling, 2023
+
+CLAD CD2N1A   4.11115 ! mguan, yiling, 2023
+CLAD ND2P1A   4.10351 ! mguan, yiling, 2023
+CLAD ND2R5A   0.90387 ! imid, yiling, 2023
+
+ND2R5B ND2R5C 3.70989 ! imim - imid, yiling, 2023
+
+END

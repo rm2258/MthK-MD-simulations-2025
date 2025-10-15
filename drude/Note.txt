@@ -1,0 +1,3 @@
+The included force fields are an earlier version of the Nan and MacKerell 2024
+NBFIX parameters between ion and protein. It is expected that these earlier
+NBFIX behave consistently with the Nan and MacKerell 2024 NBFIX.
